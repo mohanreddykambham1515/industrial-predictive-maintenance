@@ -1,0 +1,14 @@
+from src.predict import predict_machine
+
+sample = {
+    "Type": "L",
+    "Air temperature [K]": 300.0,
+    "Process temperature [K]": 310.0,
+    "Rotational speed [rpm]": 1500,
+    "Torque [Nm]": 40.0,
+    "Tool wear [min]": 100
+}
+
+result = predict_machine(sample)
+
+print(result)

@@ -1,0 +1,17 @@
+
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.py[cod]
+
+data/*
+!data/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep
+!artifacts/predictive_maintenance_pipeline.joblib
+!artifacts/metrics.json
+
+.DS_Store

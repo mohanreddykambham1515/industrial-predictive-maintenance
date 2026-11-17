@@ -1,0 +1,30 @@
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Git
+.git/
+.gitignore
+
+# Dataset
+data/
+
+# Environment variables
+.env
+
+# Development files
+.DS_Store
+.vscode/
